@@ -1,0 +1,1 @@
+vsim -do "runsim.do"

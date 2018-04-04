@@ -1,0 +1,53 @@
+# //  Questa Sim-64
+# //  Version 10.3d linux_x86_64 Oct  6 2014
+# //
+# //  Copyright 1991-2014 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  THIS WORK CONTAINS TRADE SECRET AND PROPRIETARY INFORMATION
+# //  WHICH IS THE PROPERTY OF MENTOR GRAPHICS CORPORATION OR ITS
+# //  LICENSORS AND IS SUBJECT TO LICENSE TERMS.
+# //
+# do runsim.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# QuestaSim-64 vmap 10.3d Lib Mapping Utility 2014.10 Oct  6 2014
+# vmap -modelsim_quiet work work 
+# Modifying modelsim.ini
+# QuestaSim-64 vlog 10.3d Compiler 2014.10 Oct  6 2014
+# Start time: 14:49:15 on Oct 14,2016
+# vlog -reportprogress 300 -incr ../../rtl/lfsr1/lfsr1.v 
+# -- Skipping module lfsr1
+# 
+# Top level modules:
+# 	lfsr1
+# End time: 14:49:15 on Oct 14,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 10.3d Compiler 2014.10 Oct  6 2014
+# Start time: 14:49:15 on Oct 14,2016
+# vlog -reportprogress 300 -incr const_tb.v 
+# End time: 14:49:15 on Oct 14,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# QuestaSim-64 vlog 10.3d Compiler 2014.10 Oct  6 2014
+# Start time: 14:49:15 on Oct 14,2016
+# vlog -reportprogress 300 -incr test_lfsr.v 
+# -- Skipping module testbench
+# 
+# Top level modules:
+# 	testbench
+# End time: 14:49:15 on Oct 14,2016, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -do "runsim.do" 
+# Start time: 14:49:15 on Oct 14,2016
+# ** Warning: (vsim-8891) All optimizations are turned off because the -novopt switch is in effect. This will cause your simulation to run very slowly. If you are using this switch to preserve visibility for Debug or PLI features please see the User's Manual section on Preserving Object Visibility with vopt.
+# Loading work.testbench
+# Loading work.lfsr1
+# The results DO match with those from Matlab :) 
+# ** Note: $finish    : test_lfsr.v(70)
+#    Time: 515 ns  Iteration: 1  Instance: :testbench
+# 1
+# Break in Module testbench at test_lfsr.v line 70
+# Simulation Breakpoint: 1
+# Break in Module testbench at test_lfsr.v line 70
+# MACRO ./runsim.do PAUSED at line 17
+# End time: 15:25:30 on Oct 14,2016, Elapsed time: 0:36:15
+# Errors: 0, Warnings: 1

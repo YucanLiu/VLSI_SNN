@@ -1,0 +1,52 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/tools2/courses/ee6321/share/project/qsim_rtl/lfsr1
+vlfsr1
+!s10a 1437407754
+Z1 !s110 1476470941
+!i10b 1
+!s100 hTo8hKzdO=^P3=AlEQoz^3
+I834eQ7S_D<O`OkFPOAAoI0
+Z2 V`JN@9S9cnhjKRR_L]QIcM3
+R0
+w1437407754
+8../../rtl/lfsr1/lfsr1.v
+F../../rtl/lfsr1/lfsr1.v
+L0 7
+Z3 OL;L;10.3d;59
+r1
+!s85 0
+31
+!s108 1476470941.270119
+!s107 ../../rtl/lfsr1/lfsr1.v|
+!s90 -reportprogress|300|-incr|../../rtl/lfsr1/lfsr1.v|
+!i113 1
+Z4 o-L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+vtestbench
+!s10a 1437412281
+R1
+!i10b 1
+!s100 WGm>=:ZfAV=k6UiBQ5lDi2
+IN`<9bL]V[HB93`W`gH>hT0
+R2
+R0
+w1437412281
+8test_lfsr.v
+Ftest_lfsr.v
+L0 7
+R3
+r1
+!s85 0
+31
+!s108 1476470941.385922
+!s107 test_lfsr.v|
+!s90 -reportprogress|300|-incr|test_lfsr.v|
+!i113 1
+R4
