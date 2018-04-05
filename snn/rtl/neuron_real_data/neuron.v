@@ -29,7 +29,7 @@ module neuron ( // A neuron with both positive and negative input ports
       begin
         counter <= counter + 1;
       end
-    else if (neg_in == 0)
+    else if (neg_in == 1)
       begin
         counter <= (counter == 8'b0) ? 0 : counter - 1;
       end

@@ -2,7 +2,7 @@
 
 module neuron_tb ;
   reg clk, weight;
-  reg [3:0] threshold;
+  reg [7:0] threshold;
   reg pos_in, neg_in;
   wire pos_out, neg_out;
 
@@ -19,8 +19,8 @@ module neuron_tb ;
 
   initial begin
     clk = 0;
-    weight = 1;
-    threshold = 4'b0010;
+    weight = 0;
+    threshold = 8'b00000010;
 
     pos_in = 0; neg_in = 0;
 

@@ -1,12 +1,24 @@
 onerror {resume}
 quietly WaveActivateNextPane {} 0
-add wave -noupdate :neuron_tb:clk
-add wave -noupdate :neuron_tb:weight
-add wave -noupdate :neuron_tb:threshold
-add wave -noupdate :neuron_tb:pos_in
-add wave -noupdate :neuron_tb:neg_in
-add wave -noupdate :neuron_tb:pos_out
-add wave -noupdate :neuron_tb:neg_out
+add wave -noupdate :real_data_and_tb:clk
+add wave -noupdate :real_data_and_tb:w1
+add wave -noupdate :real_data_and_tb:w2
+add wave -noupdate :real_data_and_tb:w3
+
+add wave -noupdate :real_data_and_tb:th1
+add wave -noupdate :real_data_and_tb:th2
+add wave -noupdate :real_data_and_tb:th3
+
+add wave -noupdate :real_data_and_tb:p_in_1
+add wave -noupdate :real_data_and_tb:n_in_1
+add wave -noupdate :real_data_and_tb:o1
+
+add wave -noupdate :real_data_and_tb:p_in_2
+add wave -noupdate :real_data_and_tb:n_in_2
+add wave -noupdate :real_data_and_tb:o2
+
+add wave -noupdate :real_data_and_tb:p_out_3
+add wave -noupdate :real_data_and_tb:n_out_3
 
 
 TreeUpdate [SetDefaultTree]
