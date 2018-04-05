@@ -8,7 +8,7 @@ module real_data_and_tb ;
   wire p_out_3, n_out_3;
   wire o1, o2;
 
-  network_and U0(
+  real_data_and U0(
     .clk    (clk),
     .w1     (w1), // weight
     .w2     (w2),

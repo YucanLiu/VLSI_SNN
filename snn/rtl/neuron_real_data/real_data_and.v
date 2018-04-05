@@ -32,30 +32,30 @@ module real_data_and (
     .clk      (clk),
     .weight   (w1),
     .threshold(th1),
-    .data_in  (p_in_1),
-    .sign_in  (n_in_1),
-    .data_out (p_out_1),
-    .sign_out (n_out_1)
+    .pos_in  (p_in_1),
+    .neg_in  (n_in_1),
+    .pos_out (p_out_1),
+    .neg_out (n_out_1)
     );
 
   neuron n2(
     .clk      (clk),
     .weight   (w2),
     .threshold(th2),
-    .data_in  (p_in_2),
-    .sign_in  (n_in_2),
-    .data_out (p_out_2),
-    .sign_out (n_out_2)
+    .pos_in  (p_in_2),
+    .neg_in  (n_in_2),
+    .pos_out (p_out_2),
+    .neg_out (n_out_2)
     );
 
   neuron n3(
     .clk      (clk),
     .weight   (w3),
     .threshold(th3),
-    .data_in  (p_in_3),
-    .sign_in  (n_in_3),
-    .data_out (p_out_3_wire),
-    .sign_out (n_out_3_wire)
+    .pos_in  (p_in_3),
+    .neg_in  (n_in_3),
+    .pos_out (p_out_3_wire),
+    .neg_out (n_out_3_wire)
     );
 
   assign p_in_3 = p_out_1 || p_out_2;
